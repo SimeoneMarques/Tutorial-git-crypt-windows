@@ -109,7 +109,7 @@ Antes de baixar o MSYS2, identifique a arquitetura do seu Windows:
 <br>
 
 <p align="center">
-  <img src="images/verificar-arquitetura.png" alt="Verificar arquitetura" width="50%"><br>
+  <img src="images/verificar-arquitetura.png" alt="Verificar arquitetura" width="100%"><br>
   <em>Figura 1: Tela de verificação da arquitetura do sistema</em>
 </p>
 
@@ -138,7 +138,7 @@ pacman -Syu
 Confirme com `Y` se solicitado.
 
 <p align="center">
-  <img src="images/atualizando-com-pacman-syu.png" alt="Instalação MSYS2" width="50%"><br>
+  <img src="images/atualizando-com-pacman-syu.png" alt="Instalação MSYS2" width="100%"><br>
   <em>Figura 3: Atualizando sistema do MSYS2 com pacman -Syu</em>
 </p>
 
@@ -156,7 +156,7 @@ pacman -S mingw-w64-ucrt-x86_64-gcc
 Confirme com `Y` quando solicitado.
 
 <p align="center">
-  <img src="images/instalacao-compilador-gcc.png" alt="Instalação MSYS2" width="50%"><br>
+  <img src="images/instalacao-compilador-gcc.png" alt="Instalação MSYS2" width="100%"><br>
   <em>Figura 4: Instalando compilador mingw-w64-ucrt-x86_64-gcc</em>
 </p>
 
@@ -185,7 +185,7 @@ g++ --version
 ```
 
 <p align="center">
-  <img src="images/versoes-gcc.png" alt="Instalação MSYS2" width="50%"><br>
+  <img src="images/versoes-gcc.png" alt="Instalação MSYS2" width="100%"><br>
   <em>Figura 5: Confirmando instalação gcc</em>
 </p>
 
@@ -213,7 +213,7 @@ git-crypt --version
 A versão atual do git-crypt deve aparecer.
 
 <p align="center">
-  <img src="images/versao-git-crypt.png" alt="Instalação git-crypt" width="50%"><br>
+  <img src="images/versao-git-crypt.png" alt="Instalação git-crypt" width="100%"><br>
   <em>Figura 6: Confirmando instalação git-crypt</em>
 </p>
 
@@ -234,7 +234,7 @@ Para usá-lo em qualquer terminal (CMD/PowerShell):
 5. Clique **"OK"** em todas as janelas
 
 <p align="center">
-  <img src="images/adicionando-git-crypt-ao-path.png" alt="Variáveis de ambiente" width="50%"><br>
+  <img src="images/adicionando-git-crypt-ao-path.png" alt="Variáveis de ambiente" width="100%"><br>
   <em>Figura 7: Adicionando git-crypt ao PATH</em>
 </p>
 
@@ -249,7 +249,7 @@ git-crypt --version
 ✅ Se a versão aparecer, a instalação foi bem-sucedida!
 
 <p align="center">
-  <img src="images/confirmando-path.png" alt="Git-crypt no CMD" width="50%"><br>
+  <img src="images/confirmando-path.png" alt="Git-crypt no CMD" width="100%"><br>
   <em>Figura 8: Confirmando git-crypt adicionado ao PATH</em>
 </p>
 
@@ -286,7 +286,7 @@ git init
 git-crypt init
 ```
 <p align="center">
-  <img src="images/inicializando-git-e-git-crypt.png" alt="Projeto no VSCode" width="50%"><br>
+  <img src="images/inicializando-git-e-git-crypt.png" alt="Projeto no VSCode" width="100%"><br>
   <em>Figura 9: Inicializando git e git-crypt no projeto a ser criptografado</em>
 </p>
 
@@ -312,7 +312,7 @@ Crie um arquivo `.gitattributes` na raiz do projeto com o seguinte conteúdo:
 Agora sim, `.gitattributes` criado.
 
 <p align="center">
-  <img src="images/adicionando-gitattributes.png" alt="Arquivo .gitattributes" width="50%"><br>
+  <img src="images/adicionando-gitattributes.png" alt="Arquivo .gitattributes" width="100%"><br>
   <em>Figura 10: Criando o .gitattributes</em>
 </p>
 
@@ -327,7 +327,7 @@ git commit -m "Configurando criptografia para o repositório inteiro"
 ```
 
 <p align="center">
-  <img src="images/commitando-gitattributes.png" alt="Arquivo .gitattributes" width="50%"><br>
+  <img src="images/commitando-gitattributes.png" alt="Arquivo .gitattributes" width="100%"><br>
   <em>Figura 11: Commitando o .gitattributes</em>
 </p>
 
@@ -345,7 +345,7 @@ git-crypt export-key C:\caminho\seguro\chave.key
 ```
 
 <p align="center">
-  <img src="images/exportando-key.png" alt="Exportando key" width="50%"><br>
+  <img src="images/exportando-key.png" alt="Exportando key" width="100%"><br>
   <em>Figura 12: Exportando key. Navegue até a pasta onde a salvou para verificar, ela deve estar lá</em>
 </p>
 
@@ -368,7 +368,7 @@ git commit -m "Primeiro commit que adiciona criptografia a todos os arquivos"
 ```
 
 <p align="center">
-  <img src="images/criptografando.png" alt="Criptografando arquivos do repositório" width="50%"><br>
+  <img src="images/criptografando.png" alt="Criptografando arquivos do repositório" width="100%"><br>
   <em>Figura 13: Criptografando os arquivos</em>
 </p>
 
@@ -388,7 +388,7 @@ git show HEAD:nome_do_seu_arquivo.extensão
 ```
 
 <p align="center">
-  <img src="images/visualizando-criptografia.png" alt="Visualizando código criptografado<" width="50%"><br>
+  <img src="images/visualizando-criptografia.png" alt="Visualizando código criptografado<" width="100%"><br>
   <em>Figura 14: É assim que o código deverá ser mostrado</em>
 </p>
 
