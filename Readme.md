@@ -424,7 +424,7 @@ git push -u origin master
 
 ## 🔓 Descriptografia em Outra Máquina
 
-Usando a **AWS** como exemplo. Acesse o AWS Management e abra o CloudShell para seguir com a descriptografia. O mesmo deve ser vir também para qualquer outro ambiente de nuvem, máquina remota ou outra máquina física local.
+Usando a **AWS** como exemplo. Acesse o AWS Management e abra o CloudShell para seguir com a descriptografia. O mesmo deve servir também para qualquer outro ambiente de nuvem, máquina remota ou outra máquina física local.
 
 ### Passo 1: Clonar o Repositório
 
